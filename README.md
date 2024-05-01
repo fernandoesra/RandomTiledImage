@@ -38,6 +38,12 @@ You can modify the behavior of the tool with 4 different input parameters. These
 | preview width height      | java -jar run.jar true 800 600               |
 | preview width height name | java -jar run.jar true 3840 2160 4kTestImage |
 
+# Rules:
+
+- There must always be at least <b>one 16x16 tile</b> for the program to work correctly
+- It is recommended that all image formats be in the same format (.png recommended)
+- There is no limit to the number of variations a tile can have. There can be, for example, a single 16x16 tile and two hundred 32x32 tiles
+
 # Images generated with the example tileset:
 
 This tileset is only to show the tiles used, the tiles must be included separately in the Tiles folder.
@@ -54,3 +60,12 @@ This tileset is only to show the tiles used, the tiles must be included separate
 
 > ![](https://i.imgur.com/ZVcgFMB.png)
 > *3840 x 2160 (4K)*
+
+> ![](https://i.imgur.com/42bDKDY.png)
+> *Image generated using only one 16x16 tile and another 32x32 tile*
+
+> ![](https://i.imgur.com/PeUMkOQ.png)
+> *Image generated using two 16x16 tiles and one 16x48 tile*
+
+> ![](https://i.imgur.com/ejWFX1Z.png)
+> *Image generated using a 16x16 tile, another 32x16 tile and another 16x32 tile*
